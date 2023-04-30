@@ -1,0 +1,19 @@
+3.字符串转数组
+ public static void main(String[] args) {
+   String s1 = "hello";
+   //数组串转数组
+  char[] ch = s.toCharArray();
+ for(int i = 0;i<ch.length;i++){
+   System.out.println(ch[i]);
+  }
+  System.out.println();
+//数组转字符串
+ String s2 = new String(ch);
+ System.out.println(s2);
+}
+ 
+4.格式化
+public static void main(String[] args) {
+  String s = String.format("%d-%d-%d",2019,9,14);
+   System.out.println(s);
+ }
